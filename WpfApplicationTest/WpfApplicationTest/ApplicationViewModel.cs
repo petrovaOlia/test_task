@@ -10,23 +10,6 @@ namespace WpfApplicationTest
 
         public ObservableCollection<Polynomial> Functions { get; set; }
 
-        public ObservableCollection<int> ValuesC
-        {
-            get
-            {
-                return selectedFunction.ValuesC;
-            }
-        }
-
-        public int SelectedC
-        {
-            get { return selectedFunction.C; }
-            set
-            {
-                selectedFunction.C = value;
-            }
-        }
-
         public Polynomial SelectedFunction
         {
             get { return selectedFunction; }
